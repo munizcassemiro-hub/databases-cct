@@ -1,0 +1,11 @@
+[build]
+  base = "."
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+  NPM_FLAGS = "--include=dev"
+
+# Redirects and cache headers live in public/_redirects and public/_headers.
+# Vite copies them into dist/, including for direct ZIP deployments.

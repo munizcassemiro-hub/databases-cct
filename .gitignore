@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.cache/
+*.tsbuildinfo
+test-results/
+.DS_Store
+.netlify/
+database-lab-netlify.zip
